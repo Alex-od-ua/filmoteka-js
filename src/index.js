@@ -1,5 +1,5 @@
 import '/src/sass/index.scss';
-// import Notiflix from 'notiflix';
+
 import { filmTemplate } from '/src/js/film-templete';
 import { fetchFilmPopularity } from '/src/js/fetch-film-popularity';
 import { fetchFilmInfo } from '/src/js/fetch-film-info';
@@ -137,7 +137,7 @@ export function renderIds(genre_ids, listg) {
     }
   }
 
-  const listArr = localStorage.setItem(GENRE_DATA, strGenres)
+  const listArr = localStorage.setItem(GENRE_DATA, strGenres);
   return listArr;
 }
 
